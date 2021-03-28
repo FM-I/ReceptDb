@@ -9,12 +9,6 @@ namespace ReceptDb
         static void Main(string[] args)
         {
 
-            using(var context = new ReceptContext())
-            {
-                context.Database.ExecuteSqlCommand("ALTER TABLE dbo.Ingredients ADD CONSTRAINT Ingredients_Unit FOREIGN KEY (UnitId) REFERENCES dbo.Units (id) ON DELETE SET NULL");
-                context.Database.ExecuteSqlCommand("ALTER TABLE dbo.Ingredients ADD CONSTRAINT Ingredients_Recept FOREIGN KEY (ReceptId) REFERENCES dbo.Recepts (id) ON DELETE SET NULL");
-            }
-
 
                 #region
                 //var users = new List<User>()

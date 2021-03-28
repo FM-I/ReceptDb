@@ -67,8 +67,17 @@
     <Compile Include="Migrations\202103270940443_Table List Units.designer.cs">
       <DependentUpon>202103270940443_Table List Units.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202103281825093_Delete table.cs" />
+    <Compile Include="Migrations\202103281825093_Delete table.designer.cs">
+      <DependentUpon>202103281825093_Delete table.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202103281830236_Add Table Prohibited ingredients.cs" />
+    <Compile Include="Migrations\202103281830236_Add Table Prohibited ingredients.designer.cs">
+      <DependentUpon>202103281830236_Add Table Prohibited ingredients.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="ProhibitedIngredient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Recept.cs" />
     <Compile Include="ReceptContext.cs" />
@@ -89,6 +98,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202103270940443_Table List Units.resx">
       <DependentUpon>202103270940443_Table List Units.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103281825093_Delete table.resx">
+      <DependentUpon>202103281825093_Delete table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103281830236_Add Table Prohibited ingredients.resx">
+      <DependentUpon>202103281830236_Add Table Prohibited ingredients.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -13,6 +13,6 @@ namespace ReceptDb
         public DbSet<ReceptType> ReceptTypes { get; set; }
         public DbSet<Unit> Units { get; set; }
         public DbSet<Ingredient> Ingredients { get; set; }
-        public DbSet<ListUnit> ListUnits { get; set; }
+        public DbSet<ProhibitedIngredient> ProhibitedIngredients { get; set; }
     }
 }
